@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="node_modules/flexboxgrid/css/flexboxgrid.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="res/styles/style.css">
+
+
+
+</head>
+<body class="grey lighten-5" style="position: relative;">
+
+
+
+<div class="header_vew container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-2 logoView">
+            <img src="./res/drawable/logo.png" alt="">
+        </div>
+        <div class="col-xs-12 col-md center-xs centerView">
+            <h2>Название</h2>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2 middle-xs">
+            Фонд в ноябре 2017г.
+        </div>
+
+    </div>
+</div>
+
+<nav class="nav-extended green accent-4">
+    <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="hide-on-med-and-down descMenu">
+            <li><a href="/text.html">О фонде</a></li>
+            <li><a href="./news.html">Новости</a></li>
+            <li><a href="#">Программы</a></li>
+            <li><a href="#">Требуется помощ</a></li>
+            <li><a href="#">Кому помоч</a></li>
+            <li><a href="#">Друзья</a></li>
+            <li><a href="#">Как помоч</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="/text.html">О фонде</a></li>
+            <li><a href="./news.html">Новости</a></li>
+            <li><a href="/text.html">Программы</a></li>
+            <li><a href="#">Требуется помощ</a></li>
+            <li><a href="#">Кому помоч</a></li>
+            <li><a href="#">Друзья</a></li>
+            <li><a href="/text.html">Как помоч</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<section class="regLog container">
+    <div class="row ">
+        <div class="col-xs-12 col-md-6 center-xs">
+            <button class="waves-effect waves-light btn regTrigger light-blue accent-4">Регистрация</button>
+        </div>
+        <div class="col-xs-12 col-md-6 center-xs">
+            <button class="waves-effect waves-light btn logTrigger green accent-4">Вход</button>
+        </div>
+    </div>
+    <div class="row  regView">
+        <form class="col-xs-12">
+            <h3>Регистрация нового пользователя</h3>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="last_name">Имя</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Фамилия</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Пароль</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="password2" type="password" class="validate">
+                    <label for="password2">Пароль еще раз</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="u_email" type="email" class="validate">
+                    <label for="u_email">Email</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="u_email2" type="email" class="validate">
+                    <label for="u_email2">Email  еще раз</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <button type="submit" class="waves-effect waves-light btn green accent-4">Регистрация</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div class="row  logView">
+        <form class="col-xs-12">
+            <h3>Вход</h3>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="lu_email" type="email" class="validate">
+                    <label for="lu_email">Email</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="lpassword" type="password" class="validate">
+                    <label for="lpassword">Пароль</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <button type="submit" class="waves-effect waves-light btn green accent-4">Войти</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</section>
+
+
+
+<section class="urgent container white-text">
+    <div class="row reciclerView1 middle-xs center-md z-depth-4">
+        <div class="col-xs-12 col-md-8" >
+            <h3>Сбор на срочные нужды</h3>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <a class="waves-effect waves-light btn-large red">Пожертвовать</a>
+        </div>
+    </div>
+</section>
+
+<main role="main" class="main_content">
+
+    <section class="container">
+        <div class="row center-xs">
+            <div class="col-xs-12">
+                <h3>Иванов Иван</h3>
+            </div>
+            <div class="col-xs-12 col-md-8">
+                <div class="card mVard" style="padding: 16px; position: relative;">
+                    <div class="bgView">
+                        <div class="bg"></div>
+                        <div class="bg bg2"></div>
+                        <div class="bg bg3"></div>
+                    </div>
+                    <img class="materialboxed" style="width: 100%;"
+                         src="https://images.pexels.com/photos/670740/pexels-photo-670740.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 card">
+                <ul class="skill-list">
+                    <li class="skill">
+                        <h3>90 000 из 300 000 р. </h3>
+                        <progress class="skill-1" max="100" value="50">
+                        </progress>
+                    </li>
+                    <!---->
+                    <!--Тут указаны дополнительные цвета для разных процентных соотношений.-->
+                    <!--<li class="skill">-->
+                    <!--<h3>Больше 60%</h3>-->
+                    <!--<progress class="skill-2" max="100" value="75">-->
+                    <!--<strong>Skill Level: 75%</strong>-->
+                    <!--</progress>-->
+                    <!--</li>-->
+                    <!--<li class="skill">-->
+                    <!--<h3>Меньше 20%</h3>-->
+                    <!--<progress class="skill-3" max="100" value="25">-->
+                    <!--<strong>Skill Level: 25%</strong>-->
+                    <!--</progress>-->
+                    <!--</li>-->
+                </ul>
+                <article class="start-xs">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate et excepturi facilis harum impedit quam sapiente tempore unde voluptate. Aut, quis voluptatibus. Assumenda consectetur consequatur incidunt iusto perferendis, quisquam rem!
+                    </p>
+                </article>
+                <div class="row">
+                    <a class="waves-effect waves-light btn red col-xs-12" style="display: block;">Donate</a>
+
+                    <a class="waves-effect waves-light btn blue col-md-6" style="display: block;">Facebook</a>
+
+                    <a class="waves-effect waves-light btn blue accent-4 col-md-6" style="display: block;">Twitter</a>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 card history start-xs">
+                <h3 class="card-title center-xs">История</h3>
+                <p>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet at corporis deserunt
+                    dolorem eos expedita, fuga harum magnam odit officia quis quod quos rerum sapiente sit vitae
+                    voluptatum!
+                </div>
+                <div>A at dolore hic laudantium minus natus, necessitatibus nemo neque nobis, odit quae quam quia rem
+                    ullam vero voluptas, voluptate. Architecto consequatur cupiditate eius facilis magnam nemo numquam
+                    rerum voluptas?
+                </div>
+                <div>Ad hic ipsam minus omnis quaerat quibusdam, ratione unde veniam? Beatae dicta distinctio eius,
+                    eligendi impedit neque non officia qui, quo ratione recusandae sit soluta sunt suscipit vitae!
+                    Placeat, veritatis.
+                </div>
+                <div>Accusamus consequatur dolorum eos maxime nam. Adipisci aliquam beatae consectetur consequuntur cum
+                    cumque enim error est hic, laudantium libero nostrum officiis pariatur quam quos repellendus
+                    repudiandae sint sit tempora veritatis!
+                </div>
+                <div>Consequatur consequuntur cupiditate exercitationem illum in iure laboriosam modi necessitatibus
+                    nihil odio, officiis omnis porro praesentium quibusdam repudiandae similique tenetur? Aperiam
+                    consequuntur corporis debitis distinctio facilis nobis nostrum sunt vero?
+                </div>
+                </p>
+            </div>
+
+            <div class="col-xs-12 card photos mVard"  style="padding: 16px; position: relative;">
+                <div class="bgView">
+                    <div class="bg"></div>
+                    <div class="bg bg2"></div>
+                    <div class="bg bg3"></div>
+                </div>
+                <img class="materialboxed" style="width: 100%;"
+                     src="https://images.pexels.com/photos/259806/pexels-photo-259806.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="">
+            </div>
+
+            <div class="col-xs-12 card tableView" style="padding: 16px;">
+                <div class="col-xs-12">
+                    <h4>Пожертвовали</h4>
+                </div>
+                <table class="striped">
+                    <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Сумма руб</th>
+                        <th>Страна</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>Алексей</td>
+                        <td>8 000</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <td>Николай</td>
+                        <td>10 000</td>
+                        <td>Украина</td>
+                    </tr>
+                    <tr>
+                        <td>Окки</td>
+                        <td>50 000</td>
+                        <td>Япония</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+
+
+</main>
+
+
+<footer class="page-footer green accent-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <!--<h5 class="white-text">Footer Content</h5>-->
+                <p class="grey-text text-lighten-4">NIP</p>
+                <p class="grey-text text-lighten-4">KRS</p>
+                <p class="grey-text text-lighten-4">REGION</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-2">
+                <p>
+                    <a class="waves-effect waves-light btn light-blue accent-4">facebook</a>
+                </p>
+                <p>
+                    <a class="waves-effect waves-light btn light-blue accent-4">twitter</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">Some link</a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+
+<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.js"></script>
+<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="main/main.js"></script>
+<script src="main/javascript/animation.js"></script>
+
+
+
+</html>
+

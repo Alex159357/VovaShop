@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="node_modules/flexboxgrid/css/flexboxgrid.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="res/styles/style.css">
+
+
+
+</head>
+<body class="grey lighten-5" style="position: relative;">
+
+
+
+<div class="header_vew container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-2 logoView">
+            <img src="./res/drawable/logo.png" alt="">
+        </div>
+        <div class="col-xs-12 col-md center-xs centerView">
+            <h2>Название</h2>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2 middle-xs">
+            Фонд в ноябре 2017г.
+        </div>
+
+    </div>
+</div>
+
+<nav class="nav-extended green accent-4">
+    <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="hide-on-med-and-down descMenu">
+            <li><a href="/">О фонде</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Программы</a></li>
+            <li><a href="#">Требуется помощ</a></li>
+            <li><a href="#">Кому помоч</a></li>
+            <li><a href="#">Друзья</a></li>
+            <li><a href="#">Как помоч</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="/">О фонде</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Программы</a></li>
+            <li><a href="#">Требуется помощ</a></li>
+            <li><a href="#">Кому помоч</a></li>
+            <li><a href="#">Друзья</a></li>
+            <li><a href="#">Как помоч</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<section class="regLog container">
+    <div class="row ">
+        <div class="col-xs-12 col-md-6 center-xs">
+            <button class="waves-effect waves-light btn regTrigger light-blue accent-4">Регистрация</button>
+        </div>
+        <div class="col-xs-12 col-md-6 center-xs">
+            <button class="waves-effect waves-light btn logTrigger green accent-4">Вход</button>
+        </div>
+    </div>
+    <div class="row  regView">
+        <form class="col-xs-12">
+            <h3>Регистрация нового пользователя</h3>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="last_name">Имя</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Фамилия</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Пароль</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="password2" type="password" class="validate">
+                    <label for="password2">Пароль еще раз</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="u_email" type="email" class="validate">
+                    <label for="u_email">Email</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="u_email2" type="email" class="validate">
+                    <label for="u_email2">Email  еще раз</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <button type="submit" class="waves-effect waves-light btn green accent-4">Регистрация</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div class="row  logView">
+        <form class="col-xs-12">
+            <h3>Вход</h3>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="lu_email" type="email" class="validate">
+                    <label for="lu_email">Email</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="lpassword" type="password" class="validate">
+                    <label for="lpassword">Пароль</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <button type="submit" class="waves-effect waves-light btn green accent-4">Войти</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</section>
+
+
+
+<section class="urgent container white-text">
+    <div class="row reciclerView1 middle-xs center-md z-depth-4">
+        <div class="col-xs-12 col-md-8" >
+            <h3>Сбор на срочные нужды</h3>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <a class="waves-effect waves-light btn-large red">Пожертвовать</a>
+        </div>
+    </div>
+</section>
+
+<main role="main" class="main_content">
+
+    <section class="container">
+        <div class="row center-xs card newsView">
+            <div class="col-xs-12">
+                <h3>Заголовок</h3>
+            </div>
+            <div class="col-xs-12 start-xs">
+                <article>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid consectetur deleniti inventore iure labore laboriosam nostrum officia sunt voluptatum! Assumenda at beatae deleniti dolore eos error quibusdam repellat, ut!</span><span>Aliquid aperiam cumque debitis delectus, dolor dolorem eos harum ipsum magni nemo nihil, perferendis quae ratione repellendus ut vero voluptatem! Adipisci esse itaque optio ratione similique, soluta totam ullam voluptate.</span><span>Eveniet, explicabo quos. Ab, adipisci consequatur corporis dignissimos dolorum eaque ex facere, illum itaque laudantium molestias mollitia necessitatibus nobis numquam, obcaecati pariatur quae quaerat recusandae reiciendis sequi tempora unde voluptatem.</span><span>Architecto commodi consequuntur cupiditate deserunt enim excepturi facere fugit magnam non, optio porro possimus quis ratione repellendus sint soluta tenetur totam ut vel voluptatum! Consectetur culpa in inventore perspiciatis ullam.</span><span>Animi architecto asperiores, consequatur debitis distinctio esse illo iure laudantium magnam maiores neque numquam odit perspiciatis, quos, sequi sit tenetur voluptatem voluptatum! Explicabo molestiae nesciunt non possimus praesentium quidem sapiente?</span>
+                    </p>
+                    <img src="https://images.pexels.com/photos/416821/pexels-photo-416821.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width: 100%;" alt="">
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolores nam nostrum, quam quidem sapiente suscipit. Illo ipsa ipsum, nesciunt possimus sit temporibus totam. Illo ipsam magnam numquam porro voluptate.</span><span>Accusantium, aliquam animi, aspernatur beatae consequatur cum cupiditate dolor eos et eveniet hic illum magnam, molestias nemo officiis quasi quisquam reiciendis repellendus rerum saepe ullam ut vel voluptate! In, ullam.</span><span>Aliquam, corporis cum deserunt enim ex fugit magni numquam quas quisquam voluptate. Eaque, illo iste. A aliquid animi consequuntur dolorum laudantium magnam, maxime, nam nostrum quo sed sequi veritatis vitae?</span><span>At consequuntur cumque debitis dolor dolores ea eaque eligendi fuga hic id incidunt inventore ipsam itaque laborum neque nobis nulla officia omnis quae recusandae reiciendis reprehenderit sunt temporibus tenetur, vel!</span><span>Aliquam aliquid architecto, assumenda, aut beatae blanditiis dolorum ducimus ea enim fugiat harum incidunt, ipsa modi molestias nam officia omnis placeat quos repellendus sed suscipit veniam voluptates? Aliquid, doloremque tempora.</span>
+                    </p>
+                    <blockquote>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolorem earum fugiat id molestias nostrum quaerat quam, quisquam repudiandae rerum sequi ut voluptatem. Ab enim expedita facere impedit, officia tempora.
+                    </blockquote>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti dicta doloremque eligendi eum illo iste laborum nam necessitatibus neque nihil odio, perspiciatis placeat, quae quis ratione saepe sapiente sint.</span><span>Ad aliquam assumenda culpa dolore earum eligendi eveniet explicabo id, illum incidunt ipsa ipsum, magnam minima minus modi, officia quae sapiente similique sunt tempore tenetur ut veritatis vitae voluptates voluptatibus.</span><span>Ad ducimus ea, itaque nam quod reiciendis repellat sapiente sequi voluptatum! Doloremque, ducimus eum. Accusantium architecto asperiores aut beatae cupiditate delectus distinctio ea illo nesciunt non nulla omnis qui, voluptates.</span><span>Alias, aliquid aut consectetur cumque dolorum eos, esse eum explicabo facilis ipsum iusto laudantium libero modi molestiae molestias nostrum nulla omnis perspiciatis placeat quas quasi sapiente, ullam ut velit vitae.</span><span>Autem culpa deleniti distinctio enim error facilis ipsa laboriosam laudantium libero maxime molestiae nam nostrum odio omnis pariatur provident, qui quia quo recusandae sequi sit veniam, voluptatem. Impedit, ipsum provident.</span>
+                    </p>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur in mollitia perferendis porro repudiandae sed soluta voluptatem. Ab, enim facilis maxime necessitatibus odio optio quisquam sunt tenetur ut voluptate.</span><span>Aut, eos eveniet in minus nisi quam quidem quis repellendus veniam veritatis. Accusamus, dolore doloribus esse facere labore maiores nostrum sapiente sequi velit. Ab assumenda debitis dolore dolorem dolorum eum?</span><span>Alias architecto assumenda earum eligendi neque nostrum pariatur quod quos. A alias aperiam delectus eos et facere iure natus numquam, obcaecati odit perspiciatis provident, quis, repudiandae rerum suscipit ut voluptatum!</span><span>Animi aperiam architecto atque beatae doloremque ea eaque eligendi error excepturi harum, ipsa laborum nam nemo nesciunt nobis odit quae, quos repellendus suscipit voluptatem? Ab autem dolores iure perferendis recusandae.</span><span>Ad at autem beatae deserunt dignissimos eveniet, excepturi ipsum laudantium libero, natus nisi obcaecati perspiciatis, possimus vitae voluptatum. Animi at cupiditate dolorum eaque id nihil nostrum quaerat qui sed sint?</span>
+                    </p>
+                    <blockquote>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolorem earum fugiat id molestias nostrum quaerat quam, quisquam repudiandae rerum sequi ut voluptatem. Ab enim expedita facere impedit, officia tempora.
+                    </blockquote>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque, dicta dignissimos dolorem eius esse, excepturi ipsa, ipsum libero nemo nihil nobis omnis quod reiciendis repellat ullam ut velit voluptates?</span><span>Accusamus ipsam maiores minus ratione rerum. A ab, adipisci commodi dicta dolorem doloremque dolorum ea error explicabo illum impedit in ipsum labore magni molestiae natus, neque nulla odit quae quis?</span><span>Aperiam architecto asperiores assumenda atque consequuntur dolorem dolores dolorum ex illum ipsa laboriosam praesentium provident quaerat quasi quisquam quo tempora, veniam vitae voluptate voluptates? Aspernatur natus odio quo reprehenderit unde?</span><span>Dolorem eum harum, in iusto libero nesciunt officia officiis, optio quas qui quo sapiente similique, sunt temporibus vero. Consectetur dolorum et libero omnis perspiciatis. Beatae labore magni perferendis placeat suscipit?</span><span>Dolorum illum labore odit quam quidem quisquam ratione sint tempora! Adipisci corporis delectus deleniti dolorem dolorum ea earum facilis iure magnam maxime natus nesciunt quae, voluptas! Beatae ipsam laboriosam obcaecati?</span>
+                    </p>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur corporis dignissimos eveniet ipsum, iste iusto labore laudantium magni maiores molestiae nisi nulla, numquam quis quo repellat sapiente unde voluptatum.</span><span>Cupiditate itaque mollitia repellat sit unde? Deleniti, ex maiores. Aliquid cupiditate dolore dolorum error excepturi expedita fugiat id ipsum libero, modi molestias nulla provident recusandae sapiente soluta tenetur voluptatem voluptatum?</span><span>Alias consequatur earum eligendi enim ipsum minima neque, omnis quaerat reiciendis suscipit! Alias nesciunt nobis perferendis velit veniam voluptas! Aliquid aperiam at corporis et exercitationem nesciunt quibusdam reprehenderit. Itaque, ratione?</span><span>Aliquam asperiores aspernatur commodi corporis culpa dolorem doloribus, error est et explicabo in ipsa iure iusto laudantium molestiae numquam quae quidem quis, quisquam repellendus reprehenderit sed sequi temporibus ut voluptatibus.</span><span>Accusamus deserunt ea enim fuga ipsam natus tempora. Aliquam animi dolorum eaque est, ex fugiat inventore, laboriosam minus natus placeat recusandae suscipit. A cum dolorem doloribus nisi perspiciatis tempora, veniam.</span>
+                    </p>
+                    <img src="https://images.pexels.com/photos/416821/pexels-photo-416821.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width: 100%;" alt="">
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem commodi debitis ea error eveniet facilis, harum id impedit itaque laboriosam praesentium quae, quam repellat repellendus, rerum veniam voluptas voluptatem.</span><span>Architecto distinctio eaque fugit natus odit rerum voluptates? Ab commodi, dolorem dolorum enim ex harum ipsa iure iusto modi necessitatibus nemo officia perferendis, sequi similique, soluta! Aliquid ipsum mollitia quisquam?</span><span>A beatae distinctio id ipsa nesciunt reiciendis rerum saepe sint velit voluptate! Accusantium aspernatur atque consequuntur earum eos expedita itaque optio tenetur veritatis voluptate? Architecto aspernatur at eligendi exercitationem fugit.</span><span>A aspernatur aut corporis cupiditate distinctio eius illo laborum, maiores molestiae natus nostrum omnis quisquam ratione rem repudiandae sapiente soluta temporibus totam veritatis voluptate. Mollitia necessitatibus non obcaecati quasi ullam.</span><span>Assumenda autem, commodi debitis deleniti earum est fugit impedit in ipsam nam, nulla perspiciatis quas quia quod recusandae repellat sapiente, similique velit veniam voluptatem? Adipisci alias aut delectus doloremque veritatis?</span>
+                    </p>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut autem, dicta dolore in minus possimus quia recusandae sed? Aut consequuntur culpa deserunt dolore eius laborum neque numquam quae repellat suscipit.</span><span>Beatae ea, eveniet omnis quae recusandae repellat. Asperiores corporis culpa cupiditate, dignissimos dolorem eaque facere fuga fugit nam nemo nulla perspiciatis, praesentium quae quod ratione recusandae repellendus unde velit. Soluta!</span><span>Excepturi illo itaque recusandae soluta tenetur veniam voluptatibus! A architecto delectus dolorem earum, hic inventore ipsam, nemo nisi obcaecati odit officia ratione rem repellat saepe sequi sit temporibus voluptate voluptates!</span><span>Amet aspernatur corporis eligendi excepturi fuga nemo nesciunt numquam quos, repudiandae vitae. Corporis delectus ea eligendi molestiae odio, rem sapiente temporibus veritatis. Animi, asperiores cum inventore placeat quaerat sunt voluptatem?</span><span>Beatae est et fugit nulla sequi tempore ut. Blanditiis dolore doloremque est, harum magnam natus nostrum quia tempore! Accusamus dolorem enim eos illo perspiciatis praesentium quas reiciendis suscipit veritatis, vero.</span>
+                    </p>
+                    <blockquote>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolorem earum fugiat id molestias nostrum quaerat quam, quisquam repudiandae rerum sequi ut voluptatem. Ab enim expedita facere impedit, officia tempora.
+                    </blockquote>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda beatae consequatur cum dolores doloribus ducimus earum eligendi facere incidunt inventore necessitatibus placeat quam, quidem quisquam reprehenderit sunt temporibus tenetur.</span><span>Aliquam amet animi assumenda, culpa dolorem dolorum ex fugiat incidunt itaque laborum, libero molestiae necessitatibus non officiis optio quibusdam suscipit. Fuga in nisi odit optio reiciendis sit velit! Maiores, quis.</span><span>Adipisci doloremque error facilis fuga incidunt ipsum, natus ratione reiciendis saepe ut velit voluptatum. At error magni modi necessitatibus provident. Aspernatur esse ipsa iste iusto provident quae temporibus tenetur totam.</span><span>Amet animi commodi delectus doloremque ducimus, earum itaque nesciunt numquam, provident, quisquam rem tempora? Dolore dolorem facilis obcaecati soluta. Aspernatur at delectus dignissimos ea, eos harum quia? Iste quibusdam, voluptate.</span><span>Accusantium doloribus harum labore minima nihil quos rerum, similique suscipit temporibus vero. Atque beatae dicta distinctio earum, error exercitationem fugit hic nihil odio perferendis placeat qui quidem repellat temporibus tenetur!</span>
+                    </p>
+                    <img src="https://images.pexels.com/photos/416821/pexels-photo-416821.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" style="width: 100%;" alt="">
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid beatae dignissimos dolores eum harum inventore iure, laudantium minus nisi nostrum odit placeat porro praesentium qui repudiandae sit totam veritatis! Maiores.</span><span>Accusamus, blanditiis consequuntur cum doloremque enim illum minus nulla obcaecati officiis, perferendis quibusdam quidem, quos recusandae repellendus saepe. Adipisci aliquid deserunt eum iste molestias nostrum saepe sed totam ullam vitae!</span><span>Animi consequatur dolorum itaque soluta veniam! Accusantium, non, perspiciatis! Corporis debitis, doloremque expedita itaque maiores numquam provident quaerat tempora totam voluptatibus. Delectus dolores ipsam libero mollitia, nostrum possimus rem voluptatem?</span><span>Accusamus, aliquam beatae consectetur dolorem doloremque eaque ipsum laboriosam magni molestiae officiis provident, sed? Alias aspernatur corporis eligendi error, explicabo iusto molestiae nostrum numquam optio placeat quaerat quam repellat temporibus.</span><span>Dolor fuga quidem reprehenderit vel vitae. Ad beatae consectetur eaque maiores, placeat repellat. Delectus dolorum ducimus laborum vitae. Adipisci corporis deleniti illum impedit magni officiis sint sit temporibus tenetur totam?</span>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+
+</main>
+
+
+<footer class="page-footer green accent-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <!--<h5 class="white-text">Footer Content</h5>-->
+                <p class="grey-text text-lighten-4">NIP</p>
+                <p class="grey-text text-lighten-4">KRS</p>
+                <p class="grey-text text-lighten-4">REGION</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-2">
+                <p>
+                    <a class="waves-effect waves-light btn light-blue accent-4">facebook</a>
+                </p>
+                <p>
+                    <a class="waves-effect waves-light btn light-blue accent-4">twitter</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">Some link</a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+
+<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.js"></script>
+<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="main/main.js"></script>
+<script src="main/javascript/animation.js"></script>
+
+
+
+</html>
+

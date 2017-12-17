@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="node_modules/flexboxgrid/css/flexboxgrid.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="res/styles/style.css">
+
+
+
+</head>
+<body class="grey lighten-5" style="position: relative;">
+
+
+
+<div class="header_vew container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-2 logoView">
+            <img src="./res/drawable/logo.png" alt="">
+        </div>
+        <div class="col-xs-12 col-md center-xs centerView">
+            <h2>Название</h2>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2 middle-xs">
+            Фонд в ноябре 2017г.
+        </div>
+
+    </div>
+</div>
+
+<nav class="nav-extended green accent-4">
+    <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="hide-on-med-and-down descMenu">
+            <li><a href="/text.html">О фонде</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Программы</a></li>
+            <li><a href="#">Требуется помощ</a></li>
+            <li><a href="#">Кому помоч</a></li>
+            <li><a href="#">Друзья</a></li>
+            <li><a href="#">Как помоч</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="/text.html">О фонде</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Программы</a></li>
+            <li><a href="#">Требуется помощ</a></li>
+            <li><a href="#">Кому помоч</a></li>
+            <li><a href="#">Друзья</a></li>
+            <li><a href="#">Как помоч</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<section class="regLog container">
+    <div class="row ">
+        <div class="col-xs-12 col-md-6 center-xs">
+            <button class="waves-effect waves-light btn regTrigger light-blue accent-4">Регистрация</button>
+        </div>
+        <div class="col-xs-12 col-md-6 center-xs">
+            <button class="waves-effect waves-light btn logTrigger green accent-4">Вход</button>
+        </div>
+    </div>
+    <div class="row  regView">
+        <form class="col-xs-12">
+            <h3>Регистрация нового пользователя</h3>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="last_name">Имя</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Фамилия</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Пароль</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="password2" type="password" class="validate">
+                    <label for="password2">Пароль еще раз</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="u_email" type="email" class="validate">
+                    <label for="u_email">Email</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="u_email2" type="email" class="validate">
+                    <label for="u_email2">Email  еще раз</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <button type="submit" class="waves-effect waves-light btn green accent-4">Регистрация</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div class="row  logView">
+        <form class="col-xs-12">
+            <h3>Вход</h3>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="lu_email" type="email" class="validate">
+                    <label for="lu_email">Email</label>
+                </div>
+                <div class="input-field col-xs-12 col-md-6">
+                    <input id="lpassword" type="password" class="validate">
+                    <label for="lpassword">Пароль</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col-xs-12 col-md-6">
+                    <button type="submit" class="waves-effect waves-light btn green accent-4">Войти</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</section>
+
+
+
+<section class="urgent container white-text">
+    <div class="row reciclerView1 middle-xs center-md z-depth-4">
+        <div class="col-xs-12 col-md-8" >
+            <h3>Сбор на срочные нужды</h3>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <a class="waves-effect waves-light btn-large red">Пожертвовать</a>
+        </div>
+    </div>
+</section>
+
+<main role="main" class="main_content">
+
+    <section class="container">
+        <div class="row center-xs card newsView">
+            <div class="col-xs-12">
+                <h3>Новости</h3>
+            </div>
+            <div class="col-xs-12">
+                <div class="row start-xs">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/134392/pexels-photo-134392.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action green accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/134393/pexels-photo-134393.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action green accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+                                <span class="card-title">Экономия средств</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action blue accent-4">
+                                <a href="#" class="white-text">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel"></div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+</main>
+
+
+<footer class="page-footer green accent-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <!--<h5 class="white-text">Footer Content</h5>-->
+                <p class="grey-text text-lighten-4">NIP</p>
+                <p class="grey-text text-lighten-4">KRS</p>
+                <p class="grey-text text-lighten-4">REGION</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-2">
+                <p>
+                    <a class="waves-effect waves-light btn light-blue accent-4">facebook</a>
+                </p>
+                <p>
+                    <a class="waves-effect waves-light btn light-blue accent-4">twitter</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">Some link</a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+
+<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.js"></script>
+<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="main/main.js"></script>
+<script src="main/javascript/animation.js"></script>
+
+
+
+</html>
+
